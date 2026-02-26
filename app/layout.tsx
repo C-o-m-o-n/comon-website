@@ -54,13 +54,13 @@ Join Comon today and let's create something amazing... together! 🥰 "
 Join Comon today and let's create something amazing... together! 🥰 "
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.comon.tech" />
-        <meta property="og:image" content="https://www.comon.tech/icon.png" />
+        <meta property="og:url" content="https://www.comonhq.com" />
+        <meta property="og:image" content="https://www.comonhq.com/icon.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Comon" />
         <meta name="twitter:description" content="Join the Comon server" />
-        <meta name="twitter:image" content="https://www.comon.tech/icon.png" />
-        <link rel="canonical" href="https://www.comon.tech" />
+        <meta name="twitter:image" content="https://www.comonhq.com/icon.png" />
+        <link rel="canonical" href="https://www.comonhq.com" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-background text-foreground dark`}

@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { IoMdMenu } from 'react-icons/io';
 import { LiaTimesSolid } from 'react-icons/lia';
 import Link from 'next/link';
-import { Sparkles } from "lucide-react"
+// import { Sparkles } from "lucide-react"
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -61,7 +61,7 @@ function Navbar() {
           isOpen ? 'flex justify-start w-1/2' : 'hidden'
         } md:flex`}
       >
-        <Link
+        {/* <Link
           className={`text-white p-2 rounded-3xl flex items-center justify-center bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 ${
               btnClicked === 'home' &&
               'border rounded-3xl border-[#3c3e44] bg-blue-500 text-white'
@@ -77,7 +77,7 @@ function Navbar() {
             Activa
           </h1>
           <Sparkles className="h-6 w-6 text-white mr-2" />
-        </Link>
+        </Link> */}
         <Link
           className="text-white p-2 rounded-3xl"
           href="/community"
@@ -89,37 +89,9 @@ function Navbar() {
               'border rounded-3xl border-[#3c3e44] bg-gray-300 text-white'
             }`}
           >
-            Community
+            Members
           </h1>
         </Link>
-        <a
-          className="text-white p-2 rounded-3xl"
-          href="/portfolios"
-          onClick={() => toggleBtnClicked('portfolios')}
-        >
-          <h1
-            className={`flex items-center justify-center py-0 px-4 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 ${
-              btnClicked === 'portfolios' &&
-              'border rounded-3xl border-[#3c3e44] bg-gray-300 text-white'
-            }`}
-          >
-            Portfolios
-          </h1>
-        </a>
-        <a
-          className="text-white p-2 rounded-3xl"
-          href="/contact"
-          onClick={() => toggleBtnClicked('contact')}
-        >
-          <h1
-            className={`flex items-center justify-center py-0 px-4 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 ${
-              btnClicked === 'contact' &&
-              'border rounded-3xl border-[#3c3e44] bg-gray-300 text-white'
-            }`}
-          >
-            Contact
-          </h1>
-        </a>
         <a
           className="text-white w-full p-2 rounded-3xl mt-4 md:mt-0"
           href="https://discord.gg/eqSU46Y7xW"

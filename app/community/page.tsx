@@ -48,7 +48,7 @@ function Page() {
 
                     <div className="border rounded">
                         <Link className="text-white" href="/community/all">
-                            <h1 className="px-2 flex gap-2 items-center"> Community <span className="text-[#919193]">{community?.length} commoners</span><FaExternalLinkAlt/></h1>
+                            <h1 className="px-2 flex gap-2 items-center"> All <span className="text-[#919193]">{community?.length} commoners</span><FaExternalLinkAlt/></h1>
                         </Link>
                     </div>
 

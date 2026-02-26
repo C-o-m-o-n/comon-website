@@ -15,7 +15,7 @@ function Header() {
       />
       </div>
       <h1 className="text-[20px] sm:text-[30px] md:text-[40px] font-bold text-center text-gray-900 dark:text-white">
-        Welcome to Comon Tech
+        Welcome to the Comon Community
       </h1>
       </div>
   )
